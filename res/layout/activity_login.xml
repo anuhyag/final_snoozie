@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f0f0f0">
+
+        <!-- Header Starts -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/desc"
+                android:paddingTop="0dp"
+                android:src="@drawable/hello" />
+
+        </LinearLayout>
+
+        <!-- Login Form -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <!-- Username Label -->
+
+            <TextView
+                android:id="@+id/username"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textStyle="bold"
+                android:shadowColor="#ff0000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:typeface="sans" />
+
+            <EditText
+                android:id="@+id/void_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:hint="@string/void_username"
+                android:singleLine="true"
+                android:textColor="#EDDA74"
+                android:textSize="15sp" />
+
+            <!-- Password Label -->
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"               
+                android:text="@string/password"
+                android:textStyle="bold"
+                android:shadowColor="#ff0000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:typeface="sans"/>
+
+            <EditText
+                android:id="@+id/void_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dp"
+                android:hint="@string/void_password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#EDDA74"
+                android:textSize="15sp" />
+
+           
+            <!-- Login button -->
+
+		<Button
+            android:id="@+id/btnLogin"
+            android:onClick="loginCallback"
+            android:text="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    		android:paddingRight="110dp"
+    		android:paddingLeft="110dp"
+    		android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+    		android:gravity="center"
+    		android:layout_margin="10dp"
+    		android:textColor="#ffffff"
+    		android:background="@drawable/round_button"
+            android:shadowColor="#ff0000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:textSize="23sp" />
+            
+            <TextView
+                android:id="@+id/link_to_register"
+                android:text="@string/logintoreg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:shadowColor="#ff0000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

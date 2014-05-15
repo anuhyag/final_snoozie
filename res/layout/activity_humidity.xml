@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:id="@+id/scrollView2"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="#3d455b" android:layout_alignParentLeft="true">
+
+    
+	<HorizontalScrollView android:id="@+id/hscrll2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+	    
+		<LinearLayout android:id="@+id/HumidityLinearLayout"
+			android:layout_width="fill_parent" android:layout_gravity="center"
+			android:layout_height="fill_parent" android:orientation="vertical">
+			
+		    <TextView android:id="@+id/title_activity_humidity" android:text="@string/title_activity_humidity"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:gravity="center" android:padding="10dp" android:shadowColor="#000000"
+				android:shadowDx="1" android:shadowDy="1" android:shadowRadius="3"
+				android:singleLine="true" android:textColor="#FFFFFF"
+				android:textSize="21sp" android:textStyle="bold" />
+
+			<TableLayout android:id="@+id/table_humidity"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true" android:layout_marginTop="15dp"/>
+
+		</LinearLayout>
+	</HorizontalScrollView>
+</ScrollView>

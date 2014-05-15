@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Snoozie!</string>
+    <string name="app_name">Snoozie</string>
+
+    <!-- Login -->
+    <string name="desc">description</string>
+    <string name="login">Login</string>
+    <string name="logintoreg">New to Snoozie? Register here.</string>
+    <string name="void_username">Enter Your Username.</string>
+
+    <!-- Login & Registration -->
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="void_password">Choose a Password.</string>
+
+    <!-- Registration -->
+    <string name="new_account">Create Account</string>
+    <string name="fullname">Full Name</string>
+    <string name="void_fullname">Enter Your Full Name.</string>
+    <string name="register">Register New Account</string>
+    <string name="regtologin">Already have account? Login here.</string>
+    <string name="new_username">Choose a Username.</string>
+    <string name="void_gender">Enter Your Gender</string>
+
+    <!-- Main Option Page -->
+    <string name="phone">View Phone Data</string>
+    <string name="sensor">View Sensor Data</string>
+    <string name="survey">Take Survey</string>
+    <string name="choose_option_title">Choose An Option:</string>
+    <string name="consumption_btn">Add Food/Drink Data</string>
+
+    <!-- Phone Data Page -->
+    <string name="call_log">Call Log Data</string>
+    <string name="screen_status">Screen On/Off Data</string>
+    <string name="sms_data">SMS Data</string>
+
+    <!-- Sensor Data Page -->
+    <string name="light_data">View Light Data</string>
+    <string name="acc_data">View Accelerometer Data</string>
+    <string name="temp_data">View Temperature Data</string>
+    <string name="humid_data">View Humidity Data</string>
+
+    <!-- Miscellaneous -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="vis_data">Visualize Data</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_phone">Phone</string>
+    <string name="title_activity_sensor">Sensor Data</string>
+    <string name="title_activity_survey">Survey Data</string>
+    <string name="title_activity_light">Light Data</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="humidity">Humidity</string>
+    <string name="light">Light</string>
+    <string name="temperature">Temperature</string>
+    <string name="title_activity_accelerometer">Accelerometer Data</string>
+    <string name="title_activity_temperature">Temperature Data</string>
+    <string name="title_activity_humidity">Humidity Data</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_call">Call Log Data</string>
+    <string name="title_activity_screen">Screen On/Off Data</string>
+    <string name="title_activity_sms">SMS Data</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_graph">Graph</string>
+    <string name="title_activity_alcohol">Alcohol</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_meal">Meal</string>
+    <string name="title_activity_alcohol_food">AlcoholFood</string>
+
+    <!-- Alcohol Food Strings -->
+
+    <string name="alc_heading">Enter Your Food, Alcohol, or Caffeine Consumption Data</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="caffeine">Caffeine</string>
+    <string name="food">Food</string>
+    <string name="time_prompt">Choose a Time</string>
+    <string name="consumption_button">Save</string>
+    <string name="time_heading">Approximate Time of Consumption:</string>
+    <string name="item">What Food Did You Consume?</string>
+    <string name="quantity">How Much Did You Consume?</string>
+    <string name="void_item">Chips, Rum, or Coffee</string>
+    <string name="void_quantity">1 bag, 2 shots or 1 cup</string>
+    <string name="void_time">HH:MM AM or PM </string>
+
+    <string-array name="time_array">
+        <item>1</item>
+        <item>1:30</item>
+        <item>2</item>
+        <item>2:30</item>
+        <item>3</item>
+        <item>3:30</item>
+        <item>4</item>
+        <item>4:30</item>
+        <item>5</item>
+        <item>5:30</item>
+        <item>6</item>
+        <item>6:30</item>
+        <item>7</item>
+        <item>7:30</item>
+        <item>8</item>
+        <item>8:30</item>
+        <item>9</item>
+        <item>9:30</item>
+        <item>10</item>
+        <item>10:30</item>
+        <item>11</item>
+        <item>11:30</item>
+        <item>12</item>
+        <item>12:30</item>
+    </string-array>
+    <string-array name="am_pm_array">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string name="title_activity_sensor_menu">SensorMenu</string>
+    <string name="title_activity_sleep">Sleep</string>
+
+</resources>
